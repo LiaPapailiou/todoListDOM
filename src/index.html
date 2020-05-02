@@ -6,11 +6,26 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>&lt;/salt&gt; :: ToDo</title>
   <link rel="stylesheet" type="text/css" href="./style/todo.css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet"></link>
+  <link href="https://fonts.googleapis.com/css?family=Dosis|Indie+Flower&display=swap" rel="stylesheet">
   <script defer src="./js/todo.js"></script>
 </head>
 
 <body>
-  <!-- Add your markup here -->
+  <div class="container">
+    <h1>Things to do</h1>
+    <form class="todo-form">
+      <label for="todo">I need to...</label><br>
+      <input type="text" class="todo"><br>
+      <img src="./images/kawaii-dog-sleeping.png">
+      <label for="description">Description</label><br>
+      <input type="text" class="description"><br><br>
+      <input type="submit" class="submit-button" value="Add">
+    </form>
+  </div>
+  <section class="item-section">
+    <ul class="todo-list">
+    </ul>
+  </section>
 </body>
-
 </html>
