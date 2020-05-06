@@ -115,6 +115,17 @@ label {
   margin-bottom: 5px;
 }
 
+.mark-done {
+  text-decoration: line-through;
+  color:#72757e;
+  font-family: 'Indie Flower', cursives;
+  text-align: start;
+  font-size: 20px;
+  margin-bottom: 20px;
+  margin-left: 30px;
+  margin-top: 30px;
+}
+
 .item-section {
   display: flex;
   flex-wrap: wrap;

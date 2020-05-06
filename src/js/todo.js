@@ -43,8 +43,7 @@ function addToArray(todo, description) {
       const itemToMove = e.target.parentNode;
       const parent = itemToMove.parentNode;
       parent.appendChild(itemToMove);
-      itemToMove.style.textDecoration = 'line-through';
-      itemToMove.style.color = '#72757e';
+      itemToMove.classList.toggle('mark-done');
     }
   }
 
